@@ -5,3 +5,6 @@ for i in range(1, len(array)):
             array[j], array[j + 1] = array[j + 1], array[j]
             j -= 1
 print(array)
+
+# Сложность О(n**2)
+# Берется элемент и после сравнения вставляется в отсортированную часть массива
